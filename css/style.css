@@ -1,0 +1,344 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Patua+One');
+
+/* Adjusment */
+:root {
+  --primary: #D0D0D0;
+  --header: #333;
+
+}
+.wrapper {
+  font-family: 'Fira Sans', sans-serif;
+}
+      /*********
+
+       INDEX (COLMARACADEMY):
+       1. Main Navigation.
+       2. Start of Main Container.
+       3. Cover of webpage.
+       4. Container 1 (Ctn-1).
+       4. Container 2 (Ctn-2).
+       5. Container 3 (Ctn-3).
+       6. Footer.
+
+      **********/
+
+      /* MAIN NAVIGATION */
+
+      .main-nav {
+        height: 65px;
+        align-items: center;
+        justify-content: space-between;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 10px  repeat(auto-fit,minmax(20px,1fr));
+        padding-left: 30px;
+      }
+      .nav-1 {
+        display: grid;
+        grid-template-columns: repeat(4,130px);
+        justify-content: end;
+
+      }
+      #logo-1 {
+        text-transform: uppercase;
+        font-size: 20px;
+      }
+      #logo-blk {
+        color: black;
+        font-weight: bold;
+      }
+      .main-nav a {
+        color: #111;
+        text-decoration: none;
+        padding: 0px 20px;
+      }
+
+
+  /*             CONTAINER                   */
+
+
+      /* Main COVER */
+
+      .main-cover {
+        background-color: var(--primary);
+        height: 34em;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        padding: 0px 100px 0px 0px;
+      }
+      .main-cover img {
+        width:54%;
+      }
+      #head-1 {
+        font-family: 'Patua One', cursive;
+        font-size: 2.2em;
+        line-height: 1.4em;
+        color: var(--header);
+      }
+      .main-2 p {
+        line-height: 1.4em;
+        padding: 20px 0px;
+        font-size: 1.1em;
+      }
+
+      #btn-1 {
+        width: 18em;
+        height: 3em;
+        background-color: rgba(48,48,48,48);
+        color: #fff;
+        box-shadow: 2px 3px 4px #111;
+        font-size: 20px;
+      }
+
+      /* CONTAINER 1 (ctn-1)*/
+
+      .ctn-1 {
+        display: grid;
+        grid-template-areas:
+        'f-pg-1 f-pg-2';
+        height:50em;
+        align-items: center;
+        grid-gap: 40px;
+      }
+      #head-2 {
+        font-family: 'Patua One', cursive;
+        font-size: 2.1em;
+        line-height: 1.7em;
+        color: var(--header);
+      }
+      .f-pg-1 {
+        padding-left: 20px;
+      }
+      .f-pg-1 img {
+        width: 90%;
+      }
+      .f-pg-1 figcaption {
+        line-height: 1.6em;
+        opacity: 0.6;
+        max-width: 600px;
+      }
+      .f-pg-1 p {
+        font-weight: bold;
+        position: relative;
+        top: 28px;
+        opacity: 0.7;
+      }
+
+      .f-pg-2 {
+        display: grid;
+        width:32.7em;
+        grid-template-columns: 1fr;
+        grid-gap: 2px;
+        align-items: center;
+        justify-content: center;
+      }
+      .f-pg-2 img {
+        width: 28%;
+        float: left;
+        padding: 20px
+      }
+      #head-pg {
+        font-family: 'Patua One', cursive;
+        font-size: 1.4em;
+        line-height: 2em;
+        color: var(--header);
+        padding-top: 30px;
+      }
+
+      .p {
+          border: 2px solid var(--primary);
+          height: 12em;
+      }
+      .f-pg-2 p {
+        line-height: 1.5em;
+        opacity: 0.6;
+      }
+      #read-1 {
+        text-decoration: none;
+        line-height: 2.1;
+        opacity: 0.6;
+      }
+      .pg-3 {
+        background-color: var(--primary)
+      }
+
+      /* CONTAINER (CTN-2) */
+
+      .ctn-2 {
+        background-color:#F0F0F0;
+        padding: 55px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .main-box {
+        display: grid;
+        grid-template-areas:
+        'bx-1 bx-2 bx-3'
+        'bx-1 bx-2 bx-3';
+        height: 45em;
+        grid-gap: 14px;
+      }
+      .main-box img{
+        width: 100%;
+      }
+      .bx-1,.bx-4, img {
+        width:96%;
+      }
+      .b {
+        background-color: #fff;
+        box-shadow: 3px 7px 5px 6px var(--primary);
+      }
+      #bx-head {
+        font-family: 'Patua One', cursive;
+        font-size: 1.4em;
+        color: var(--header);
+        padding-top: 16px;
+        padding-left: 25px;
+
+      }
+      #bx-head-2 {
+        opacity: 0.4;
+        font-size: 17px;
+        text-transform: uppercase;
+        line-height: 2.1;
+        padding-left: 25px;
+      }
+      #head-3 {
+        font-family: 'Patua One', cursive;
+        font-size: 2.1em;
+        line-height: 1.4em;
+        color: var(--header);
+        text-align: center;
+        padding:60px 0px;
+      }
+      .b figcaption {
+        opacity: 0.4;
+        padding-left: 25px;
+      }
+
+      /* Container (Ctn-3) */
+
+      .ctn-3 {
+        display: grid;
+        grid-template-areas:
+        'l-pg-1 l-pg-2';
+        height:30em;
+        grid-gap: 40px;
+        padding-top: 20px;
+        padding-bottom: 6em;
+      }
+      #ctn-vid {
+        width: 90%;
+      }
+      .l-pg-1 {
+        padding-left: 20px;
+      }
+      .l-pg-1 figcaption {
+        opacity: 0.6;
+        max-width: 600px;
+      }
+
+      .l-pg-2 {
+        display: grid;
+        width:29em;
+        grid-template-columns: 1fr;
+      }
+      .l-pg-2 img {
+        width: 28%;
+        float: left;
+        padding: 20px;
+      }
+      #head-btm {
+        font-family: 'Patua One', cursive;
+        font-size: 1.4em;
+        line-height: 2em;
+        color: var(--header);
+        padding-top: 30px;
+      }
+
+      .l {
+          height: 12em;
+      }
+      .l-pg-2 p {
+        line-height: 1.5em;
+        opacity: 0.6;
+      }
+      .lg-1 {
+        background-color: var(--primary);
+      }
+
+      /* FOOTER */
+      .footer {
+        height: 5.5em;
+        border-top: 1px solid var(--primary);
+        display:grid;
+        grid-template-columns: 1fr 100px 100px ;
+        align-items: center;
+        color: var(--header);
+        opacity: 0.5;
+
+      }
+    .footer p {
+      padding-left: 20px;
+    }
+    .footer a {
+      color: var(--header);
+      opacity: 0.8;
+      text-decoration: none;
+    }
+
+
+    /******************
+      Display: NONE.
+    *******************/
+    .mbl-nav {
+      display: none;
+    }
+    .mbl-1 {
+      display: none;
+    }
+    .mbl-2 {
+      display: none;
+    }
+    .mbl-3 {
+      display: none;
+    }
+    .main-cover-mbl {
+      display: none;
+    }
+    .saf-nav {
+      display: none;
+    }
+    #head-6 {
+      display: none;
+    }
+    .sf-tn-1 {
+      display: none;
+    }
+    .saf-ctn-2 {
+      display: none;
+    }
+    #saf-head-3 {
+      display: none;
+    }
+    .saf-box-1 {
+      display: none;
+
+    }
+    .saf-box-2 {
+      display: none;
+
+    }
+    .saf-header-1 {
+      display: none;
+    }
+    .saf-ctn-3 {
+      display: none;
+    }
+    #saf-header-1 {
+      display: none;
+    }

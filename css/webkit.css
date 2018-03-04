@@ -1,0 +1,249 @@
+
+
+            /*********
+
+           INDEX (COLMARACADEMY) (SAFARI)
+           1. Main Navigation.
+           2. Start of Main Container.
+           3. Cover of webpage.
+           4. Container 1 (Ctn-1).
+           4. Container 2 (Ctn-2).
+           5. Container 3 (Ctn-3).
+           6. Footer.
+
+          **********/
+
+@media only screen and (-webkit-min-device-pixel-ratio:0){
+			/* MAIN NAVIGATION */
+			.main-nav {
+				display: none;
+			}
+
+			.saf-nav {
+        background-color: white;
+				height: 65px;
+				align-items: center;
+				justify-content: space-between;
+        display: flex;
+        align-items: center;
+
+
+			}
+			.saf-1 {
+        display: flex;
+        justify-content: flex-end;
+				align-items: center;
+
+			}
+			#logo-1 {
+				text-transform: uppercase;
+				font-size: 20px;
+			}
+			#logo-blk {
+				color: black;
+				font-weight: bold;
+			}
+			.saf-nav a {
+				color: #111;
+				text-decoration: none;
+				padding: 0px 20px;
+			}
+			.ctn-3 {
+				display: flex;
+			}
+			#head-7 {
+				display: block;
+			}
+			.sf-tn-1 {
+				display: flex;
+				height:40em;
+				padding-top: 30px;
+				padding-bottom: 50px;
+			}
+			.ctn-1 {
+				display: none;
+			}
+
+			/* Safari and chrome container(3) */
+			#saf-head-3 {
+				font-family: 'Patua One', cursive;
+        font-size: 2.1em;
+        line-height: 1.4em;
+        color: var(--header);
+				display: block;
+				text-align: center;
+				padding-bottom: 100px;
+				background-color:#F0F0F0;
+			}
+			.saf-ctn-2 {
+				display: block;
+				height:45em;
+				background-color:#F0F0F0;
+			}
+			.saf-ctn-2 img {
+				width: 100%;
+			}
+			.ctn-2 {
+				display: none;
+			}
+			.saf-box-1 {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: space-around;
+			  padding-bottom: 30px;
+
+			}
+			.saf-box-2 {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: space-around;
+
+			}
+			#head-3 {
+				display: none;
+			}
+			.saf {
+			box-shadow: 8px 8px 8px 10px var(--primary);
+			width: 25%;
+
+			}
+			.saf-box-1, #bx-head {
+				padding-left: 0px;
+			}
+			.saf-box-1, #bx-head-2 {
+				padding-left: 0px;
+			}
+			.ctn-3 {
+				display: none;
+			}
+			/* SAFARI AND CHROME CTN-3 */
+			#saf-header-1 {
+				font-family: 'Patua One', cursive;
+        font-size: 2.1em;
+        line-height: 1.4em;
+        color: var(--header);
+				display: block;
+				text-align: center;
+				padding-bottom: 100px;
+			}
+			.saf-ctn-3 {
+				display: flex;
+				padding-bottom: 100px;
+
+			}
+			.saf-ctn-3 #ctn-vid {
+			width: 70%;
+
+			}
+			.saf-ctn-3   .l-pg-2 {
+	        display: flex;
+					flex-direction: column;
+	        width:79em;
+	        grid-template-columns: 1fr;
+	      }
+
+
+		/*			MOBILE (SAFARI AND CHROME)			*/
+
+			@media only screen and (max-width: 765px) {
+				/* SAFARI NAVIGATION (LOGO) */
+				.ctn-2, #head-3 {
+					display: none;
+				}
+				.main-box {
+					display: none;
+				}
+				.saf-nav {
+					display: none;
+				}
+
+				/* MAIN COVER */
+				.main-cover-mbl {
+					display: none;
+				}
+				.main-cover {
+            display: flex;
+						flex-direction: column;
+            justify-content: center;
+
+				}
+				#banner-cover {
+					width: 100%;
+					padding-left: 46px;
+					padding-top: 30px;
+					height: 50%;
+
+				}
+
+				.mbl-nav {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+
+				}
+				#btn-1 {
+					margin-bottom: 40px;
+				}
+				.mbl-1 {
+					padding-left: 50px;
+				}
+				#head-6 {
+					font-family: 'Patua One', cursive;
+	        font-size: 2.1em;
+	        line-height: 1.4em;
+	        color: var(--header);
+	        text-align: center;
+	        padding:60px 0px;
+					display: block;
+				}
+				.mbl-bx {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+				.mb {
+					margin-bottom: 10px;
+				}
+				.mbl-3 {
+					display: flex;
+					flex-direction: column;
+				}
+				#mbl-vid {
+					width: 100%;
+
+				}
+				#head-7 {
+					font-family: 'Patua One', cursive;
+	        font-size: 2.1em;
+	        line-height: 1.4em;
+	        color: var(--header);
+	        text-align: center;
+	        padding:60px 0px;
+
+				}
+				.ctn-3 {
+					display: none;
+				}
+				.sf-tn-1 {
+					display: none;
+				}
+				.saf-ctn-2 {
+					display: none;
+				}
+				#saf-head-3 {
+					display: none;
+				}
+				#saf-header-1 {
+					display: none;
+				}
+				.saf-ctn-3 {
+					display: none;
+				}
+
+			}
+
+
+
+}
